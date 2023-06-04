@@ -83,7 +83,7 @@ module.exports = {
                     return;
                 }
             }
-            await interaction.reply( "xError fetching data from Albion servers" + error);
+            await interaction.reply( "Error fetching data from Albion servers" + error);
         });
 	},
 };
